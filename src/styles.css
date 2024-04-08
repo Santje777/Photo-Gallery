@@ -22,3 +22,8 @@ p {
   font-size: 20px;
   color: rgb(174, 250, 214);
 }
+
+img {
+  width: 200px;
+  border-radius: 8%;
+}
