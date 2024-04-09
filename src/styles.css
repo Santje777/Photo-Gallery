@@ -59,8 +59,10 @@ h2 {
 }
 
 h3 {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 900;
+  font-style: normal;
   color: var(--light-green);
-  opacity: 0.8;
 }
 
 p {
@@ -80,7 +82,7 @@ a {
 .grid {
   display: grid;
   grid-template-columns: 2fr 2fr 1fr;
-  gap: 20px;
+  grid-gap: 20px;
 }
 
 footer {
@@ -92,6 +94,13 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 60px;
+}
+
+footer h3 {
+  background-color: rgba(36, 1, 83, 0.7);
+  border-radius: 8px;
+  padding: 5px;
+  margin: 0 auto;
 }
 
 footer li {
