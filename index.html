@@ -2,7 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      title="Here you can find a photo gallery full of pictures Susanne has made of the Stadspark in Groningen."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,6 +17,10 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/ce2a80ca0a.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="src/styles.css" />
     <title>Photo Gallery 📸</title>
   </head>
@@ -20,27 +28,100 @@
     <div class="container">
       <header>
         <h1>Welcome to my Photo Gallery</h1>
-        <h2>Here you find some photo's I made of the Stadspark</h2>
-        <a href="#more">Learn more</a>
+        <h2>
+          Here you find some photo's I made of the Stadspark
+          <i class="fa-solid fa-images"></i>
+        </h2>
+        <a
+          href="#more"
+          title="If you click on this button you stay on this site, it sends you to more information below."
+          >Learn more <i class="fa-solid fa-angles-down"></i
+        ></a>
       </header>
 
+      <a name="more"></a>
       <img
         src="images/foto van gans in het water van het Stadspark net na zonsondergang op 8 april 2024.jpeg"
         alt=""
         title="A photo of a goose in the water of the Stadspark, just after sunset"
       />
-
       <footer>
-        <p>
-          This site was coded by Susanne van Oosterom and is
-          <a
-            href="https://github.com/Santje777/Photo-Gallery"
-            target="_blank"
-            title="GitHub page of this site"
-            >open sourced on GitHub</a
-          >
-          and is hosted on Netlify
-        </p>
+        <div class="grid">
+          <div>
+            <h3>About me</h3>
+            <p>
+              My name is Susanne van Oosterom, I come from Groningen and I have
+              lived in Groningen my entire life. Nothing tops Groningen!
+              Groningen has a beautiful parks, among which the Stadspark. I like
+              to take walks into this Stadspark and when I do, I often make
+              beautiful pictures of the surroundings.
+              <i class="fa-solid fa-camera"></i> Lastly, I also like to build
+              websites, if you want to see more websites which I have a built,
+              you can
+              <a
+                href="https://susannesportfolio.netlify.app/"
+                target="_blank"
+                title="Link to Susannes portfolio"
+                >click here <i class="fa-solid fa-globe"></i></a
+              >.
+            </p>
+          </div>
+          <div>
+            <h3>About this site</h3>
+            <p>
+              This site was coded by Susanne van Oosterom
+              <i class="fa-regular fa-heart"></i> and is
+              <a
+                href="https://github.com/Santje777/Photo-Gallery"
+                target="_blank"
+                title="Link to the GitHub page of this site"
+                >open sourced on GitHub <i class="fa-brands fa-github"></i
+              ></a>
+              and is hosted on Netlify. <i class="fa-solid fa-wifi"></i> I
+              created this page as a part of a project for SheCodes Responsive
+              to develop my coding skills. To see my SheCodes profile, you can
+              <a
+                href="https://www.shecodes.io/graduates/97445-susanne-van-oosterom"
+                target="_blank"
+                title="Link to Susanne's SheCodes profile"
+                >click here</a
+              >.
+            </p>
+          </div>
+          <div>
+            <h3>More about the Stadspark in Groningen</h3>
+            <ul>
+              <li>
+                <a
+                  href="https://www.stadsparkgroningen.nl/"
+                  target="_blank"
+                  title="Link to website of the Stadspark in Groningen with more information about the park, it's history and the activities there."
+                >
+                  Website about the Stadspark
+                  <i class="fa-solid fa-circle-info"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.google.com/maps/d/u/0/edit?mid=16ubjYWyuIoyyI_xZPbzmThL3-MZjdSw&ll=53.202224066887965%2C6.538626781908041&z=16"
+                  target="_blank"
+                  title="Stadspark on Google maps"
+                  >Location of the Stadspark
+                  <i class="fa-solid fa-location-dot"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://grunobuurtzuid.nl/alle-nieuws/81-deze-website/706-festivals-en-evenementen-in-stadspark-groningen"
+                  target="_blank"
+                  title="Link to a site with the upcoming events in the Stadspark"
+                  >Upcoming events in the Stadspark
+                  <i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </footer>
     </div>
   </body>

@@ -46,7 +46,6 @@ h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 40px;
-  text-align: center;
 }
 
 h2 {
@@ -57,6 +56,11 @@ h2 {
   font-variation-settings: "slnt" 0;
   font-size: 20px;
   color: var(--light-green);
+}
+
+h3 {
+  color: var(--light-green);
+  opacity: 0.8;
 }
 
 p {
@@ -73,11 +77,41 @@ a {
   color: var(--orange);
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  gap: 20px;
+}
+
+footer {
+  background-image: linear-gradient(
+      rgba(172, 30, 30, 0.7),
+      rgba(36, 1, 83, 0.7)
+    ),
+    url("../images/foto\ van\ de\ magnolia\ boom\ en\ andere\ bomen\ bij\ zonsondergang\ op\ 8\ april\ 2024\ hier\ minder\ pad\ en\ meer\ blauwe\ lucht.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
 footer a:hover {
   text-decoration: underline;
 }
 
 @media (max-width: 900px) {
+  footer {
+    padding: 10px;
+  }
+
   .container {
     margin: 10px 10px;
   }
