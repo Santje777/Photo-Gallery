@@ -96,6 +96,11 @@ a {
   font-size: 30px;
 }
 
+iframe {
+  width: 100%;
+  aspect-ratio: 7/4;
+}
+
 .card {
   background: linear-gradient(var(--purple), var(--dark-blue));
 }
