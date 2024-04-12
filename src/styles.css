@@ -97,7 +97,7 @@ a {
 }
 
 .card {
-  background-color: var(--purple);
+  background: linear-gradient(var(--purple), var(--dark-blue));
 }
 
 .card h3,
