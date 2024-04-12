@@ -96,6 +96,31 @@ a {
   font-size: 30px;
 }
 
+table {
+  padding: 10px;
+  border: 1px solid var(--red);
+  background: linear-gradient(var(--dark-blue), var(--purple));
+  text-align: center;
+  font-size: 30px;
+}
+
+th {
+  width: 100px;
+  border: 1px solid var(--dark-blue);
+  padding: 10px;
+  color: var(--light-green);
+}
+
+td {
+  border: 1px solid var(--purple);
+  padding: 10px;
+  color: var(--orange);
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
 iframe {
   width: 100%;
   aspect-ratio: 7/4;
@@ -225,5 +250,9 @@ footer a:hover {
 
   header a {
     font-size: 10px;
+  }
+
+  table {
+    font-size: 15px;
   }
 }
