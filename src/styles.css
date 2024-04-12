@@ -33,8 +33,9 @@ header h1 {
 }
 
 header a,
-.button-to-top,
-.button-to-footer {
+.bird-button,
+.button-to-footer,
+.button-to-top {
   font-family: "Bungee Spice", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -94,6 +95,10 @@ a {
   color: var(--orange);
   font-size: 30px;
 }
+.card {
+  background-color: var(--purple);
+  padding: 10px;
+}
 
 .grid {
   display: grid;
@@ -110,17 +115,19 @@ a {
 }
 
 main {
+  background: linear-gradient(var(--dark-red), var(--dark-blue));
   margin: 0 auto;
   padding: 20px;
-  background: linear-gradient(var(--dark-red), var(--dark-blue));
 }
 
 section {
-  background: var(--blue);
-}
-
-section h3 {
-  background: var(--dark-red);
+  background-image: linear-gradient(var(--blue), var(--dark-blue)),
+    url("../images/At\ the\ waterside\ on\ the\ third\ of\ april\ 2024\,\ 1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 100%;
 }
 
 footer {
@@ -147,6 +154,7 @@ footer ul {
   padding: 0;
 }
 
+section a:hover,
 footer a:hover {
   text-decoration: underline;
 }
